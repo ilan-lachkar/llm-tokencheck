@@ -1,0 +1,38 @@
+{
+  "name": "llm-tokencheck",
+  "version": "0.1.2",
+  "description": "Estimate token count and USD cost of a text/file before sending it to an LLM API (Anthropic, OpenAI, Google). Free tier: single file. Pro: batch folders + CSV export.",
+  "bin": {
+    "tokencheck": "bin/tokencheck.js"
+  },
+  "main": "bin/tokencheck.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilan-lachkar/llm-tokencheck.git"
+  },
+  "homepage": "https://github.com/ilan-lachkar/llm-tokencheck#readme",
+  "bugs": {
+    "url": "https://github.com/ilan-lachkar/llm-tokencheck/issues"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "pricing.json",
+    "README.md"
+  ],
+  "type": "commonjs",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  },
+  "keywords": [
+    "llm",
+    "tokens",
+    "cost",
+    "cli",
+    "anthropic",
+    "openai",
+    "gemini",
+    "token-counter"
+  ]
+}

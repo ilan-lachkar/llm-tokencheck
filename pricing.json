@@ -1,0 +1,13 @@
+{
+  "_disclaimer": "Tarifs indicatifs saisis manuellement, susceptibles d'etre obsoletes. Verifiez toujours la page tarifaire officielle du fournisseur avant toute decision budgetaire.",
+  "_last_updated": "2026-07-17",
+  "models": [
+    { "provider": "anthropic", "model": "claude-sonnet-5",  "input_per_mtok": 3,   "output_per_mtok": 15,  "source": "https://www.anthropic.com/pricing" },
+    { "provider": "anthropic", "model": "claude-opus-4-8",  "input_per_mtok": 15,  "output_per_mtok": 75,  "source": "https://www.anthropic.com/pricing" },
+    { "provider": "anthropic", "model": "claude-haiku-4-5", "input_per_mtok": 0.8, "output_per_mtok": 4,   "source": "https://www.anthropic.com/pricing" },
+    { "provider": "openai",    "model": "gpt-4o",           "input_per_mtok": 2.5, "output_per_mtok": 10,  "source": "https://openai.com/api/pricing" },
+    { "provider": "openai",    "model": "gpt-4o-mini",      "input_per_mtok": 0.15,"output_per_mtok": 0.6, "source": "https://openai.com/api/pricing" },
+    { "provider": "google",    "model": "gemini-1.5-pro",   "input_per_mtok": 1.25,"output_per_mtok": 5,   "source": "https://ai.google.dev/pricing" },
+    { "provider": "google",    "model": "gemini-1.5-flash", "input_per_mtok": 0.075,"output_per_mtok": 0.3,"source": "https://ai.google.dev/pricing" }
+  ]
+}
