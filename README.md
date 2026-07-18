@@ -41,6 +41,17 @@ Sans installation : `npx -y -p llm-tokencheck tokencheck mon-fichier.txt`
   aucune donnée n'est envoyée à un serveur tiers dans les deux cas, tout le calcul
   est local.
 
+## LLM Pricing Alerts (nouveau, test)
+
+Un email quand les tarifs Anthropic/OpenAI/Google de `pricing.json` changent —
+pratique si vous suivez ces coûts sans vouloir repasser sur `tokencheck --list`
+régulièrement. 3 USD/mois, résiliable à tout moment depuis le lien Stripe.
+Abonnement : https://buy.stripe.com/9B63cw5F39sT4yUcNy9Zm01
+
+*Service en phase de test (volume actuel : 0 abonné) — l'envoi des alertes est
+encore fait manuellement par l'auteur, pas automatisé, le temps de valider
+l'intérêt avant d'investir dans une automatisation.*
+
 ## Licence
 
 MIT.
