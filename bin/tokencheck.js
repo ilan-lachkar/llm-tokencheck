@@ -36,7 +36,7 @@ function printReport(text, filterProvider, filterModel) {
   console.log(`Caracteres: ${text.length.toLocaleString()}  |  Mots: ${(text.match(/\S+/g) || []).length.toLocaleString()}`);
   console.log('-'.repeat(72));
   console.log(
-    'Provider'.padEnd(12) + 'Modele'.padEnd(22) + 'Cout input'.padEnd(14) + 'Cout output*'
+    'Provider'.padEnd(12) + 'Modele'.padEnd(24) + 'Cout input'.padEnd(14) + 'Cout output*'
   );
 
   for (const m of pricing.models) {
@@ -46,7 +46,7 @@ function printReport(text, filterProvider, filterModel) {
     const outputCost = (tokens / 1_000_000) * m.output_per_mtok;
     console.log(
       m.provider.padEnd(12) +
-      m.model.padEnd(22) +
+      m.model.padEnd(24) +
       formatUsd(inputCost).padEnd(14) +
       formatUsd(outputCost) + '  (* si la reponse fait ~le meme nb de tokens)'
     );

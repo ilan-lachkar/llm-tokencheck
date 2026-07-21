@@ -1,13 +1,16 @@
 {
   "_disclaimer": "Tarifs indicatifs saisis manuellement, susceptibles d'etre obsoletes. Verifiez toujours la page tarifaire officielle du fournisseur avant toute decision budgetaire.",
-  "_last_updated": "2026-07-17",
+  "_last_updated": "2026-07-21",
   "models": [
-    { "provider": "anthropic", "model": "claude-sonnet-5",  "input_per_mtok": 3,   "output_per_mtok": 15,  "source": "https://www.anthropic.com/pricing" },
-    { "provider": "anthropic", "model": "claude-opus-4-8",  "input_per_mtok": 15,  "output_per_mtok": 75,  "source": "https://www.anthropic.com/pricing" },
-    { "provider": "anthropic", "model": "claude-haiku-4-5", "input_per_mtok": 0.8, "output_per_mtok": 4,   "source": "https://www.anthropic.com/pricing" },
-    { "provider": "openai",    "model": "gpt-4o",           "input_per_mtok": 2.5, "output_per_mtok": 10,  "source": "https://openai.com/api/pricing" },
-    { "provider": "openai",    "model": "gpt-4o-mini",      "input_per_mtok": 0.15,"output_per_mtok": 0.6, "source": "https://openai.com/api/pricing" },
-    { "provider": "google",    "model": "gemini-1.5-pro",   "input_per_mtok": 1.25,"output_per_mtok": 5,   "source": "https://ai.google.dev/pricing" },
-    { "provider": "google",    "model": "gemini-1.5-flash", "input_per_mtok": 0.075,"output_per_mtok": 0.3,"source": "https://ai.google.dev/pricing" }
+    { "provider": "anthropic", "model": "claude-fable-5",   "input_per_mtok": 10,   "output_per_mtok": 50,  "source": "https://platform.claude.com/docs/en/about-claude/pricing" },
+    { "provider": "anthropic", "model": "claude-opus-4-8",  "input_per_mtok": 5,    "output_per_mtok": 25,  "source": "https://platform.claude.com/docs/en/about-claude/pricing" },
+    { "provider": "anthropic", "model": "claude-sonnet-5",  "input_per_mtok": 2,    "output_per_mtok": 10,  "source": "https://platform.claude.com/docs/en/about-claude/pricing (introductory, through 2026-08-31; $3/$15 after)" },
+    { "provider": "anthropic", "model": "claude-haiku-4-5", "input_per_mtok": 1,    "output_per_mtok": 5,   "source": "https://platform.claude.com/docs/en/about-claude/pricing" },
+    { "provider": "openai",    "model": "gpt-5.6-sol",      "input_per_mtok": 5,    "output_per_mtok": 30,  "source": "https://developers.openai.com/api/docs/pricing" },
+    { "provider": "openai",    "model": "gpt-5.6-terra",    "input_per_mtok": 2.5,  "output_per_mtok": 15,  "source": "https://developers.openai.com/api/docs/pricing" },
+    { "provider": "openai",    "model": "gpt-5.6-luna",     "input_per_mtok": 1,    "output_per_mtok": 6,   "source": "https://developers.openai.com/api/docs/pricing" },
+    { "provider": "google",    "model": "gemini-3.1-pro-preview", "input_per_mtok": 2,    "output_per_mtok": 12,  "source": "https://ai.google.dev/gemini-api/docs/pricing (<=200k context)" },
+    { "provider": "google",    "model": "gemini-3.6-flash", "input_per_mtok": 1.5,  "output_per_mtok": 7.5, "source": "https://ai.google.dev/gemini-api/docs/pricing" },
+    { "provider": "google",    "model": "gemini-2.5-flash-lite", "input_per_mtok": 0.1, "output_per_mtok": 0.4, "source": "https://ai.google.dev/gemini-api/docs/pricing" }
   ]
 }
