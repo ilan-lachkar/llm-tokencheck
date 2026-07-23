@@ -60,7 +60,7 @@ ou un échantillon représentatif de requêtes — pas de clé API requise) et
 recevez sous 48h un rapport écrit : quelles requêtes récurrentes pourraient
 utiliser un modèle moins cher sans perte de qualité perceptible, et une
 estimation d'économie mensuelle. 29 USD, paiement unique, pas d'abonnement.
-Détails et paiement : http://151.80.235.86:8101/
+Détails et paiement : https://ilan-lachkar.github.io/llm-cost-audit/
 
 *Service récent (0 audit réalisé à ce jour) — revue manuelle, pas encore
 automatisée ; remboursement intégral si je ne peux rien tirer d'utile de ce
