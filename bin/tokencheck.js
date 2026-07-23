@@ -53,7 +53,8 @@ function printReport(text, filterProvider, filterModel) {
   }
   console.log('-'.repeat(72));
   console.log(pricing._disclaimer);
-  console.log(`Tarifs saisis le : ${pricing._last_updated}\n`);
+  console.log(`Tarifs saisis le : ${pricing._last_updated}`);
+  console.log(`Envie d'un audit de vos couts API existants (pas juste une estimation) ? http://151.80.235.86:8101/ ($29, ponctuel)\n`);
 }
 
 function printList() {
