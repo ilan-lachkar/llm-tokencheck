@@ -1,6 +1,6 @@
 {
   "name": "llm-tokencheck",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Estimate token count and USD cost of a text/file before sending it to an LLM API (Anthropic, OpenAI, Google). Free tier: single file. Pro: batch folders + CSV export.",
   "bin": {
     "tokencheck": "bin/tokencheck.js"
