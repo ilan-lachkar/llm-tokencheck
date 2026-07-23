@@ -66,6 +66,15 @@ Détails et paiement : https://ilan-lachkar.github.io/llm-cost-audit/
 automatisée ; remboursement intégral si je ne peux rien tirer d'utile de ce
 que vous envoyez.*
 
+## Vous lancez vous-même un outil dev ? Le rapport LaunchMap
+
+17 canaux de distribution testés en réel pour lancer un outil dev solo
+(annuaires, Reddit, Hacker News, réseaux pub payables en crypto…) : ce qui a
+bloqué l'inscription automatisée, ce qui a marché sans friction, ce qui a été
+supprimé après coup. Données réelles issues du lancement de cet outil et de
+llm-cost-audit. 7 USD, rapport envoyé par email.
+Détails et paiement : https://ilan-lachkar.github.io/launchmap/
+
 ## Licence
 
 MIT.
