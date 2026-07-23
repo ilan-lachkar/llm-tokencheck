@@ -52,6 +52,20 @@ Abonnement : https://buy.stripe.com/9B63cw5F39sT4yUcNy9Zm01
 encore fait manuellement par l'auteur, pas automatisé, le temps de valider
 l'intérêt avant d'investir dans une automatisation.*
 
+## Besoin de plus qu'une estimation ? Audit de vos coûts API existants
+
+Un service séparé, payant, pour aller plus loin que l'estimation gratuite :
+envoyez un export de votre usage API réel (CSV/JSON du dashboard fournisseur,
+ou un échantillon représentatif de requêtes — pas de clé API requise) et
+recevez sous 48h un rapport écrit : quelles requêtes récurrentes pourraient
+utiliser un modèle moins cher sans perte de qualité perceptible, et une
+estimation d'économie mensuelle. 29 USD, paiement unique, pas d'abonnement.
+Détails et paiement : http://151.80.235.86:8101/
+
+*Service récent (0 audit réalisé à ce jour) — revue manuelle, pas encore
+automatisée ; remboursement intégral si je ne peux rien tirer d'utile de ce
+que vous envoyez.*
+
 ## Licence
 
 MIT.
