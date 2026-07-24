@@ -54,7 +54,8 @@ function printReport(text, filterProvider, filterModel) {
   console.log('-'.repeat(72));
   console.log(pricing._disclaimer);
   console.log(`Tarifs saisis le : ${pricing._last_updated}`);
-  console.log(`Envie d'un audit de vos couts API existants (pas juste une estimation) ? https://ilan-lachkar.github.io/llm-cost-audit/ ($29, ponctuel)\n`);
+  console.log(`Envie d'un audit de vos couts API existants (pas juste une estimation) ? https://ilan-lachkar.github.io/llm-cost-audit/ ($29, ponctuel)`);
+  console.log(`Vous lancez un outil dev solo ? 17 canaux de distribution testes en reel (ce qui bloque, ce qui marche) : https://ilan-lachkar.github.io/launchmap/ ($7)\n`);
 }
 
 function printList() {
